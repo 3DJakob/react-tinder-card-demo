@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.9f59e4e6.chunk.css",
-    "main.js": "/static/js/main.b41af184.chunk.js",
-    "main.js.map": "/static/js/main.b41af184.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.e3f0cc42.js",
-    "runtime-main.js.map": "/static/js/runtime-main.e3f0cc42.js.map",
-    "static/js/2.f2effef8.chunk.js": "/static/js/2.f2effef8.chunk.js",
-    "static/js/2.f2effef8.chunk.js.map": "/static/js/2.f2effef8.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.053ba8d500728541f4aa74740279bb4b.js": "/precache-manifest.053ba8d500728541f4aa74740279bb4b.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.9f59e4e6.chunk.css.map": "/static/css/main.9f59e4e6.chunk.css.map"
+    "main.css": "/react-tinder-card-demo/static/css/main.9f59e4e6.chunk.css",
+    "main.js": "/react-tinder-card-demo/static/js/main.339656a4.chunk.js",
+    "main.js.map": "/react-tinder-card-demo/static/js/main.339656a4.chunk.js.map",
+    "runtime-main.js": "/react-tinder-card-demo/static/js/runtime-main.aef4b6f8.js",
+    "runtime-main.js.map": "/react-tinder-card-demo/static/js/runtime-main.aef4b6f8.js.map",
+    "static/js/2.f2effef8.chunk.js": "/react-tinder-card-demo/static/js/2.f2effef8.chunk.js",
+    "static/js/2.f2effef8.chunk.js.map": "/react-tinder-card-demo/static/js/2.f2effef8.chunk.js.map",
+    "index.html": "/react-tinder-card-demo/index.html",
+    "precache-manifest.e51425c72846668465aabbc23d7d9b81.js": "/react-tinder-card-demo/precache-manifest.e51425c72846668465aabbc23d7d9b81.js",
+    "service-worker.js": "/react-tinder-card-demo/service-worker.js",
+    "static/css/main.9f59e4e6.chunk.css.map": "/react-tinder-card-demo/static/css/main.9f59e4e6.chunk.css.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.e3f0cc42.js",
+    "static/js/runtime-main.aef4b6f8.js",
     "static/js/2.f2effef8.chunk.js",
     "static/css/main.9f59e4e6.chunk.css",
-    "static/js/main.b41af184.chunk.js"
+    "static/js/main.339656a4.chunk.js"
   ]
 }

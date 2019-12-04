@@ -1,22 +1,85 @@
-.App {
+#root {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
   min-height: 100vh;
+  overflow: hidden;
+  /* background: linear-gradient(#fff, #999); */
+  background: linear-gradient(#e66465, #9198e5);
+}
+
+#root>div {
+  width: 260px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+h1 {
+  /* font-family: 'Alatsi', sans-serif; */
+  font-family: 'Damion', cursive;
+  /* color: #F38D68; */
+  color: #fff;
+  text-shadow: 0px 0px 60px 0px rgba(0,0,0,0.30);
+}
+
+.swipe {
+  position: absolute;
+}
+
+.cardContainer {
+  width: 90vw;
+  max-width: 260px;
+  height: 300px;
+}
+
+.card {
+  position: relative;
+  background-color: #fff;
+  width: 80vw;
+  max-width: 260px;
+  height: 300px;
+  box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.30);
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+}
+
+.cardContent {
+  width: 100%;
+  height: 100%;
+}
+
+.swipe:last-of-type {
+
+}
+
+.card h3 {
+  position: absolute;
+  bottom: 0;
+  margin: 10px;
+  color: #fff;
+}
+
+.infoText {
+  width: 100%;
+  height: 28px;
+  justify-content: center;
+  display: flex;
+  /* color: #F38D68; */
+  color: #fff;
+  animation: popup 200ms;
+}
+
+@keyframes popup {
+  0% {
+    transform: scale(0);
+  } 70% {
+    transform: scale(1.1);
+  } 85% {
+    transform: scale(0.94);
+  } 100% {
+    transform: scale(1);
+  }
 }

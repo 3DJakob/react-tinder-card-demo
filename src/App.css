@@ -10,18 +10,35 @@
 }
 
 #root>div {
-  width: 260px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+
+.app>div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  flex-direction: row !important;
+}
+
+.row>* {
+  margin: 5px;
 }
 
 h1 {
-  /* font-family: 'Alatsi', sans-serif; */
   font-family: 'Damion', cursive;
-  /* color: #F38D68; */
   color: #fff;
   text-shadow: 0px 0px 60px 0px rgba(0,0,0,0.30);
+}
+
+h2 {
+  color: #fff;
 }
 
 .swipe {
@@ -67,19 +84,41 @@ h1 {
   height: 28px;
   justify-content: center;
   display: flex;
-  /* color: #F38D68; */
   color: #fff;
-  animation: popup 200ms;
+  animation-name: popup;
+  animation-duration: 800ms;
+}
+
+.buttons {
+  margin: 20px;
+  display: flex;
+}
+
+.buttons button {
+  flex-shrink: 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  background-color: #9198e5;
+  transition: 200ms;
+  margin: 0 10px;
+  font-weight: bolder;
+  width: 160px;
+  box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.10);
+}
+
+.buttons button:hover {
+  transform: scale(1.05);
 }
 
 @keyframes popup {
-  0% {
-    transform: scale(0);
-  } 70% {
-    transform: scale(1.1);
-  } 85% {
-    transform: scale(0.94);
-  } 100% {
-    transform: scale(1);
-  }
+  0%   { transform: scale(1,1) }
+  10%  { transform: scale(1.1,1.1) }
+  30%  { transform: scale(.9,.9) }
+  50%  { transform: scale(1,1) }
+  57%  { transform: scale(1,1) }
+  64%  { transform: scale(1,1) }
+  100% { transform: scale(1,1) }
 }

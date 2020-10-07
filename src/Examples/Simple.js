@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import TinderCard from '../react-tinder-card/index'
+// import TinderCard from '../react-tinder-card/index'
+import TinderCard from 'react-tinder-card'
 
 const db = [
   {

@@ -2,12 +2,11 @@ import React, { useState } from 'react'
 import './App.css'
 import Switch from 'react-ios-switch'
 
-import Advanced from './Examples/Advanced'
-import Simple from './Examples/Simple'
+import Advanced from './examples/Advanced'
+import Simple from './examples/Simple'
 
 function App () {
   const [showAdvanced, setShowAdvanced] = useState(true)
-  console.log(showAdvanced)
 
   return (
     <div className='app'>

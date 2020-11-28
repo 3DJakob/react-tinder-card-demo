@@ -25,7 +25,7 @@ const db = [
   }
 ]
 
-const alredyRemoved = []
+const alreadyRemoved = []
 let charactersState = db // This fixes issues with updating characters state forcing it to use the current state and not the state that was active when the card was created.
 
 function Advanced () {
@@ -37,7 +37,7 @@ function Advanced () {
   const swiped = (direction, nameToDelete) => {
     console.log('removing: ' + nameToDelete)
     setLastDirection(direction)
-    alredyRemoved.push(nameToDelete)
+    alreadyRemoved.push(nameToDelete)
   }
 
   const outOfFrame = (name) => {
@@ -47,11 +47,11 @@ function Advanced () {
   }
 
   const swipe = (dir) => {
-    const cardsLeft = characters.filter(person => !alredyRemoved.includes(person.name))
+    const cardsLeft = characters.filter(person => !alreadyRemoved.includes(person.name))
     if (cardsLeft.length) {
       const toBeRemoved = cardsLeft[cardsLeft.length - 1].name // Find the card object to be removed
       const index = db.map(person => person.name).indexOf(toBeRemoved) // Find the index of which to make the reference to
-      alredyRemoved.push(toBeRemoved) // Make sure the next card gets removed next time if this card do not have time to exit the screen
+      alreadyRemoved.push(toBeRemoved) // Make sure the next card gets removed next time if this card do not have time to exit the screen
       childRefs[index].current.swipe(dir) // Swipe the card!
     }
   }

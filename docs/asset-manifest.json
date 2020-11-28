@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-tinder-card-demo/static/css/main.45f55770.chunk.css",
-    "main.js": "/react-tinder-card-demo/static/js/main.04d692f5.chunk.js",
-    "main.js.map": "/react-tinder-card-demo/static/js/main.04d692f5.chunk.js.map",
+    "main.js": "/react-tinder-card-demo/static/js/main.a11b3b43.chunk.js",
+    "main.js.map": "/react-tinder-card-demo/static/js/main.a11b3b43.chunk.js.map",
     "runtime-main.js": "/react-tinder-card-demo/static/js/runtime-main.aef4b6f8.js",
     "runtime-main.js.map": "/react-tinder-card-demo/static/js/runtime-main.aef4b6f8.js.map",
     "static/js/2.9a839f3d.chunk.js": "/react-tinder-card-demo/static/js/2.9a839f3d.chunk.js",
     "static/js/2.9a839f3d.chunk.js.map": "/react-tinder-card-demo/static/js/2.9a839f3d.chunk.js.map",
     "index.html": "/react-tinder-card-demo/index.html",
-    "precache-manifest.84c34476c19452b88b2f603862ad07d7.js": "/react-tinder-card-demo/precache-manifest.84c34476c19452b88b2f603862ad07d7.js",
+    "precache-manifest.f289e3d1246b32e64d2ead1cc753d1e1.js": "/react-tinder-card-demo/precache-manifest.f289e3d1246b32e64d2ead1cc753d1e1.js",
     "service-worker.js": "/react-tinder-card-demo/service-worker.js",
     "static/css/main.45f55770.chunk.css.map": "/react-tinder-card-demo/static/css/main.45f55770.chunk.css.map"
   },
@@ -16,6 +16,6 @@
     "static/js/runtime-main.aef4b6f8.js",
     "static/js/2.9a839f3d.chunk.js",
     "static/css/main.45f55770.chunk.css",
-    "static/js/main.04d692f5.chunk.js"
+    "static/js/main.a11b3b43.chunk.js"
   ]
 }

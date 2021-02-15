@@ -6,7 +6,7 @@ var db = require('../data/prof.json').profiles
 
 console.log(db)
 
-function Simple () {
+function CardDeck () {
   const characters = db
   const [lastDirection, setLastDirection] = useState()
 
@@ -38,4 +38,4 @@ function Simple () {
   )
 }
 
-export default Simple
+export default CardDeck

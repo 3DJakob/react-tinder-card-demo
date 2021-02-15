@@ -1,10 +1,12 @@
 {
   "profiles": [
     {
+      "id": "0",
       "name": "Megan",
       "url": "./img/megan.jpg"
     },
     {
+      "id": "1",
       "name": "Garrett",
       "url": "./img/garrett_1.jpg"
     }

@@ -2,28 +2,9 @@ import React, { useState, useMemo } from 'react'
 // import TinderCard from '../react-tinder-card/index'
 import TinderCard from 'react-tinder-card'
 
-const db = [
-  {
-    name: 'Richard Hendricks',
-    url: './img/richard.jpg'
-  },
-  {
-    name: 'Erlich Bachman',
-    url: './img/erlich.jpg'
-  },
-  {
-    name: 'Monica Hall',
-    url: './img/monica.jpg'
-  },
-  {
-    name: 'Jared Dunn',
-    url: './img/jared.jpg'
-  },
-  {
-    name: 'Dinesh Chugtai',
-    url: './img/dinesh.jpg'
-  }
-]
+var db = require('../data/prof.json').profiles
+
+console.log(db)
 
 const alreadyRemoved = []
 let charactersState = db // This fixes issues with updating characters state forcing it to use the current state and not the state that was active when the card was created.
@@ -60,7 +41,7 @@ function Advanced () {
     <div>
       <link href='https://fonts.googleapis.com/css?family=Damion&display=swap' rel='stylesheet' />
       <link href='https://fonts.googleapis.com/css?family=Alatsi&display=swap' rel='stylesheet' />
-      <h1>React Tinder Card</h1>
+      <h1>Tinderloin</h1>
       <div className='cardContainer'>
         {characters.map((character, index) =>
           <TinderCard ref={childRefs[index]} className='swipe' key={character.name} onSwipe={(dir) => swiped(dir, character.name)} onCardLeftScreen={() => outOfFrame(character.name)}>

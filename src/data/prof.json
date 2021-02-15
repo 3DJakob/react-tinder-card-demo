@@ -1,0 +1,12 @@
+{
+  "profiles": [
+    {
+      "name": "Megan",
+      "url": "./img/megan.jpg"
+    },
+    {
+      "name": "Garrett",
+      "url": "./img/garrett_1.jpg"
+    }
+  ]
+}

@@ -5,8 +5,12 @@
   width: 100vw;
   min-height: 100vh;
   overflow: hidden;
-  /* background: linear-gradient(#fff, #999); */
-  background: linear-gradient(#e66465, #9198e5);
+  --primary: #9B1D20;
+  --background-light: #FEFCF5;
+  --background-dark: #011627;
+  --accent: #FE938C;
+  --accent2: #4281A4;
+ background: linear-gradient(var(--background-light), var(--background-dark));
 }
 
 #root>div {
@@ -32,15 +36,33 @@
 }
 
 h1 {
-  font-family: 'Damion', cursive;
-  color: #fff;
-  text-shadow: 0px 0px 60px 0px rgba(0,0,0,0.30);
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: 0.041em;
+    color: var(--primary);
 }
 
 h2 {
-  color: #fff;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--primary);
 }
 
+h3 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+    
 .swipe {
   position: absolute;
 }
@@ -53,7 +75,7 @@ h2 {
 
 .card {
   position: relative;
-  background-color: #fff;
+  background-color: var(--background-light);
   width: 80vw;
   max-width: 260px;
   height: 300px;
@@ -76,15 +98,21 @@ h2 {
   position: absolute;
   bottom: 0;
   margin: 10px;
-  color: #fff;
+  color: var(--primary);
 }
 
 .card h4 {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  margin: 10px;
-  color: #fff;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    color: var(--primary);
 }
 
 .infoText {
@@ -92,7 +120,7 @@ h2 {
   height: 28px;
   justify-content: center;
   display: flex;
-  color: #fff;
+  color: var(--accent);
   animation-name: popup;
   animation-duration: 800ms;
 }
@@ -109,7 +137,7 @@ h2 {
   border: none;
   color: #fff;
   font-size: 18px;
-  background-color: #9198e5;
+  background-color: var(--accent);
   transition: 200ms;
   margin: 0 10px;
   font-weight: bolder;
@@ -136,11 +164,17 @@ h2 {
     left: 25%;
     right: 25%;
     bottom: 10%;
-    background: tan;
+    background: #FEFCF5;
 }
 
 .Modal-h2 {
-    color: red
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #9B1D20;
 }
 
 .Overlay {

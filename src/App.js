@@ -4,13 +4,23 @@ import Switch from 'react-ios-switch'
 
 import SignInScreen from './components/SignInScreen'
 
-function App () {
+class App extends React.Component {
 
-  return (
-    <div className='app'>
-      <SignInScreen />
-    </div>
-  )
+  constructor(props) {
+    super(props);
+    this.state = {
+      showexpanded: false
+    };
+  }
+  
+  
+  render() {
+    return (
+      <div className='app'>
+        <SignInScreen />
+      </div>
+    )
+  }
 }
 
 export default App

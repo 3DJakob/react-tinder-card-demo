@@ -31,6 +31,7 @@ function SignInScreen() {
         <StyledFirebaseAuth uiConfig={uiConfig} firebaseAuth={firebase.auth()} />
     );
   }
+
   return (
     <div>
       <p>Welcome {firebase.auth().currentUser.displayName}!</p>

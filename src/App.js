@@ -1,7 +1,5 @@
 import React, { useState } from 'react'
 import './App.css'
-import Switch from 'react-ios-switch'
-
 import SignInScreen from './components/SignInScreen'
 
 class App extends React.Component {
@@ -12,11 +10,11 @@ class App extends React.Component {
       showexpanded: false
     };
   }
-  
-  
+
   render() {
     return (
       <div className='app'>
+        <h1>Tinderloin</h1>
         <SignInScreen />
       </div>
     )

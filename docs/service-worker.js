@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/react-tinder-card-demo/precache-manifest.f289e3d1246b32e64d2ead1cc753d1e1.js"
+  "/react-tinder-card-demo/precache-manifest.e1dc293446ba42a497dac27b85d59721.js"
 );
 
 self.addEventListener('message', (event) => {

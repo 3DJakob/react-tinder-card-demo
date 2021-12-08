@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a1292f84c660cce5aa7ab895eaed6274",
+    "revision": "32f4b6db305009537bf46cf652b7ba76",
     "url": "/react-tinder-card-demo/index.html"
   },
   {
-    "revision": "3a227f549efcdb709543",
+    "revision": "39ac9aa0f8be75b60c49",
     "url": "/react-tinder-card-demo/static/css/main.45f55770.chunk.css"
   },
   {
-    "revision": "16a3db2cea06b4f7551a",
-    "url": "/react-tinder-card-demo/static/js/2.9a839f3d.chunk.js"
+    "revision": "45ef07df8b269a779248",
+    "url": "/react-tinder-card-demo/static/js/2.9403250d.chunk.js"
   },
   {
-    "revision": "3a227f549efcdb709543",
-    "url": "/react-tinder-card-demo/static/js/main.a11b3b43.chunk.js"
+    "revision": "39ac9aa0f8be75b60c49",
+    "url": "/react-tinder-card-demo/static/js/main.7808d3d7.chunk.js"
   },
   {
     "revision": "0d6c761cd56427a1dae1",

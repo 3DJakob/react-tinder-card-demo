@@ -107,3 +107,37 @@ HTML attribute class
 - returns `Promise<void>`
 
 스와이프된 카드 상태를 복원합니다. 스와이프된 카드를 실행 취소하려면 이 기능을 사용하십시오. 카드가 반환되면 Promise는 resolve 상태를 반환한다.
+
+## 동작 방식
+
+### 1-1. `touchstart`
+
+이전의 `ref`와 offset 설정을 초기화한다.
+
+### 1-2. `touchmove`
+
+해당 이벤트는 터치 포인트가 터치 표면을 따라 이동될 때 발생한다.
+
+무빙을 핸들링하는 함수(`handleMove`)를 실행한다.
+
+### 1-3. `touchend`
+
+스와이프를 핸들링하는 함수(`handleSwipeReleased`)를 실행한다.
+
+### 2-1. `mousedown`
+
+클릭상태(`mouseIsClicked`)를 포함하여 이전의 `ref`와 offset 설정을 초기화한다.
+
+### 2-2. `mousemove`
+
+클릭상태(`mouseIsClicked`)인지 확인하고, 무빙을 핸들링하는 함수(`handleMove`)를 실행한다.
+
+### 2-3. `mouseup`
+
+클릭상태(`mouseIsClicked`)인지 확인하고, 맞다면 스와이프를 핸들링하는 함수(`handleSwipeReleased`)를 실행한다.
+
+### 2-4. `mouseleave` (`mouseup`과 기능 동일)
+
+`mouseleave` 이벤트는 `mouseout` 과 비슷하지만, 이벤트 버블링 현상이 일어나지 않는다. 즉, 상위 태그 각각에 이벤트가 발생한다.
+
+클릭상태(`mouseIsClicked`)인지 확인하고, 맞다면 스와이프를 핸들링하는 함수(`handleSwipeReleased`)를 실행한다.

@@ -16,6 +16,10 @@
   align-items: center;
 }
 
+.app {
+  overflow: hidden;
+}
+
 .app>div {
   display: flex;
   flex-direction: column;

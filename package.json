@@ -4,12 +4,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@react-spring/web": "^9.5.5",
     "p-sleep": "^1.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-ios-switch": "^0.1.19",
     "react-scripts": "3.2.0",
-    "react-tinder-card": "^1.4.4"
+    "react-tinder-card": "^1.6.0"
   },
   "scripts": {
     "start": "react-scripts start",

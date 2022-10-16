@@ -98,7 +98,6 @@ h2 {
   flex-wrap: wrap;
 }
 
-/* media query screen size */
 @media (max-width: 625px) {
   .buttons {
     flex-direction: column;

@@ -9,6 +9,10 @@
   background: linear-gradient(#e66465, #9198e5);
 }
 
+* {
+  user-select: none;
+}
+
 #root>div {
   display: flex;
   flex-direction: column;

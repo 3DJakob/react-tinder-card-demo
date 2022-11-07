@@ -1,5 +1,6 @@
 {
   "name": "react-tinder-card-demo",
+  "homepage": "/react-tinder-card-demo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
